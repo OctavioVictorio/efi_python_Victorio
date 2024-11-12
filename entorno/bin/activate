@@ -39,10 +39,10 @@ deactivate nondestructive
 if [ "${OSTYPE:-}" = "cygwin" ] || [ "${OSTYPE:-}" = "msys" ] ; then
     # transform D:\path\to\venv to /d/path/to/venv on MSYS
     # and to /cygdrive/d/path/to/venv on Cygwin
-    export VIRTUAL_ENV=$(cygpath "/home/octavio/Desktop/efi_pythonFinal/entorno")
+    export VIRTUAL_ENV=$(cygpath "/home/octavio/itec2do/findeanio/efi_pythonFinal/entorno")
 else
     # use the path as-is
-    export VIRTUAL_ENV="/home/octavio/Desktop/efi_pythonFinal/entorno"
+    export VIRTUAL_ENV="/home/octavio/itec2do/findeanio/efi_pythonFinal/entorno"
 fi
 
 _OLD_VIRTUAL_PATH="$PATH"

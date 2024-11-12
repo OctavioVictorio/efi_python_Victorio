@@ -46,7 +46,7 @@ def login():
             )
         )
         #una ves ya creado el token, lo devolvemos
-        return jsonify({'Token':f'Bearer {access_token}'})
+        return jsonify({'Token':f' {access_token}'})
 
     return jsonify(Mensaje ="El nombre de usuario o la contraseña son incorrectos")
 
